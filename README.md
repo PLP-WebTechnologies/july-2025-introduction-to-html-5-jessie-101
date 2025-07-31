@@ -1,35 +1,54 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Example Site - Learn about accessibility, semantic HTML, and SEO basics through a simple example.">
+  <meta name="author" content="Your Name">
+  <title>Accessibility & SEO Friendly HTML5 Page</title>
+</head>
+<body>
 
-## Overview
+  <header>
+    <h1>Welcome to Example Site</h1>
+    <p>Your guide to accessibility, semantic HTML5, and SEO.</p>
+  </header>
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about" title="Learn more about this site">About</a></li>
+      <li><a href="#services" title="View the services we offer">Services</a></li>
+      <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+    </ul>
+  </nav>
 
-## Objective
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Site</h2>
+      <p>This web page is built using semantic HTML5 tags and structured to support screen readers and SEO-friendly indexing.</p>
+    </section>
 
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Accessible Design</h3>
+        <p>We ensure every website is usable by people of all abilities, using semantic structure and ARIA roles.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>Using clean code, metadata, and proper headings, we help websites rank better in search results.</p>
+      </article>
+    </section>
 
-## Guidelines
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>Email us at <a href="mailto:info@example.com">info@example.com</a> or call <a href="tel:+123456789">+1 (234) 567-89</a>.</p>
+    </section>
+  </main>
 
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
+  <footer>
+    <p>&copy; 2025 Example Site. All rights reserved.</p>
+  </footer>
 
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
-
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
-
-## Deliverables
-
-A single HTML file named `index.html`. It should include:
-
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
-
-## Tips
-
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
-
+</body>
+</html>
